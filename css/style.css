@@ -31,7 +31,11 @@
     color: var(--primary);
 }
 
-.text_punto{
+.mm{
+    color: var(--primary);
+}
+
+.clc{
     color: var(--primary);
 }
 
@@ -41,7 +45,7 @@
     color: var(--ligth);
 }
 
-.bg-phone{
+#bg-phone{
     background-color: var(--grey);
     border-color: var(--grey);
    
