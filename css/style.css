@@ -1,9 +1,8 @@
 :root{
     --primary: #6209db;
     --dark: #000000;
-    --ligth: #ffffff;
+    --light: #ffffff;
     --grey: #f5f5f5;
-
 }
 
 .btn-primary{
@@ -11,42 +10,39 @@
     border-color: var(--primary);
 }
 
-.btn-primary:hover{
-    background-color: var(--ligth);
+.btn-primary:hover {
+    background-color: var(--light);
     border-color: var(--primary);
     color: var(--primary);
 }
-
-
 
 .btn-light{
-    background-color: var(--ligth);
-    border-color: var(--ligth);
+    background-color: var(--light);
+    border-color: var(--light);
     color: var(--primary);
 }
 
-.btn-light:hover{
-    background-color: var(--ligth);
-    border-color: var(--primary);
+.text-punto{
     color: var(--primary);
 }
 
-.mm{
-    color: var(--primary);
-}
-
-.clc{
-    color: var(--primary);
-}
-
-.text-bs-primary{
+.badge{
     background-color: var(--primary);
-    border-color: var(--primary);
-    color: var(--ligth);
 }
 
-#bg-phone{
-    background-color: var(--grey);
-    border-color: var(--grey);
-   
+.text{
+    color: var(--primary);
+}
+
+.bg-phone {
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+}
+
+.icon-link {
+    color: var(--primary);
+}
+
+.bg-morado {
+    background-color: var(--primary);
 }
